@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Labby - About</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="main_resize">
+    <div class="main_left">
+      <div class="logo"><img src="images/app_name_header2.png" border="0" alt="Labby - the tool for lab managers!" /></div>
+      <div class="clr"></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.jsp"><span>Back</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="main_right">
+   		<div class="logged" >
+		    Not logged in
+     	</div>
+     <div class="clr"></div>
+      <h2 style="padding:0px 0 0px 5px;">About us<br /></h2>
+      <p class="grey">Website developers/designers/testers/administrators:</p>
+      <table class="about_table">
+      <tr>
+      	<td>Peter Izsak</td>
+      	<td><a href="mailto:speter@t2.technion.ac.il">speter@t2.technion.ac.il</a></td>
+      </tr>
+      <tr>
+      	<td>Noam Segev</td>
+      	<td><a href="mailto:s7355342@t2.technion.ac.il" >s7355342@t2.technion.ac.il</a></td>
+      </tr>
+      </table>
+      <hr/>
+      <h3>Labby design:</h3>
+      <p class="grey">
+      Advanced features implemented:
+      </p>
+      <table class="about_table">
+      <tr>
+      	<td class="about_td">XSLT viewer</td>
+      	<td>produce lab reports in 2 predefined XSLT formats and ability to upload a user defined XSL and render it into the reports page.
+      	XSL file are rendered on the client side, thanks to javascript this load can be taken off the browser.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">Instrument search engine</td>
+      	<td>all users have the ability to search for instruments (from the instruments table in the DB). The search is done 
+      	with MySQL's MyISAM engine. Search prioritizes instruments according to the user permissions and keywords found, in order to enable users to search for new instruments (for future use),
+      	they have the ability to see instruments that they have no permission to use them.</td>
+      </tr>
+      </table>
+      <hr/>
+      <h3>Labby's architecture</h3>
+      <table class="about_table">
+      <tr>
+      	<td class="about_td">Uniform look</td>
+      	<td>Labby was designed to be attractive yet simple to modify. It's easily scalable and adding new features is an easy job.
+      	Moreover, its designed so it would scale in different browsers and resolutions.
+      	</td>
+      </tr>
+      <tr>
+      	<td class="about_td">jQuery/UI</td>
+      	<td>Different parts of the website contain jQuery, helping us to write simple yet efficient javascript.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">Smart UI</td>
+      	<td>Each page was written in order to enable the user to use the website without any hassle while trying to protect as much and expose as little of the system mechanics.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">E-Mail recovery</td>
+      	<td>Password recovery for users that entered an email while signing up.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">Sortable/Searchable Tables</td>
+      	<td>Large tables can be sorted by fields and some are searchable, large and long pages are always too complicated.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">AJAX</td>
+      	<td>Editable pages are written using AJAX for faster and better form processing.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">Reports</td>
+      	<td>Reports are generated directly from the DB into XML and Interactive charts, long reports are boring and hard to read, seeing them in a simple pie chart is more informative.</td>
+      </tr>
+      <tr>
+      	<td class="about_td">Server configuration</td>
+      	<td>Server parameters (DB name, user, password, etc.) are configured in web.xml and can be managed easily (no code recompile).</td>
+      </tr>
+      </table>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; background:#f6f6f6;}
+html { padding:0; margin:0; overflow: -moz-scrollbars-vertical !important;}
+/* main */
+.main { margin:0; padding:0;}
+.main_resize { margin:0 auto; padding:0; width:1000px;}
+.main_resize h1 { font:normal 1.5em Arial, Helvetica, sans-serif; color:#3a3a3a; padding:0.6em 0.3em; margin:0;}
+.main_resize h2 { font:normal 1.5em Arial, Helvetica, sans-serif; color:#3a3a3a; padding:10px 5px; margin:0.3em 0em 0em 0em  ;text-decoration: underline;}
+.main_resize h3 { font:normal 1em Arial, Helvetica, sans-serif; color:#3a3a3a; padding:10px 5px; margin:0.3em 0em 0em 0em  ;text-decoration: underline;}
+.main_resize h2 span { font: normal 1.2em Arial, Helvetica, sans-serif; color:#8f8f8f;text-decoration: underline;}
+.main_resize p { font:normal 1em Arial, Helvetica, sans-serif; color:#565656; line-height:1.8em; padding:5px; margin:0;}
+.main_resize form{ font:normal 0.8em Arial, Helvetica, sans-serif; color:#565656; line-height:1.8em; padding:5px; margin:0;}
+.main_resize p span { color:#cd4c0f; font: normal 11px Arial, Helvetica, sans-serif; line-height:1.8em;}
+.main_resize p.grey { font: normal 0.8em Arial, Helvetica, sans-serif; color:#333; line-height:1.8em; padding:5px; margin:0;}
+.main_resize p.error{ font:normal 0.8em Arial, Helvetica, sans-serif; color:#FF0000; line-height:1.8em; padding:5px; margin:0;}
+.main_resize div.error {color:#FF0000;}
+.main_resize td.error {color:#FF0000;}
+.main_resize a { color:#333; text-decoration:none; font: bold 1em Arial, Helvetica, sans-serif; padding:0; margin:0;}
+.main_resize img { margin:5px auto; padding:0;}
+.main_resize ul { list-style:none; margin:10px 0 10px 5px; padding:0;}
+.main_resize li { padding:5px 0 3px 20px; margin:0; font:normal 1em Arial, Helvetica, sans-serif; color:#898989;}
+.main_resize li.about { padding:5px 0 3px 20px; margin:0; font:normal 0.8em Arial, Helvetica, sans-serif; color:#565656;}
+.main_resize img.floated { float:left; margin:5px 5px; padding:0;}
+.main_left { width:5em; float:left; padding:0; margin:0;}
+.main_right { width:750px; float:right; padding:0; margin:3em 0em 0em 0em;}
+.main_right_bg { background:#fff;  border:1px solid #efefef; padding:10px; margin:15px auto;}
+/* logo */
+.logo {padding:0; margin:0; width:607px; height:66px; float:left;}
+.logo img { margin:0; padding:0;}
+/*menu*/
+.menu { width:220px; padding:0; margin:0 auto; /*text-shadow: #888 1px 1px 1px;*/}
+.menu ul { padding:0; margin:0; list-style:none; border:0;}
+.menu ul li { display:block;  margin:0; padding:0; border:0; background:none;}
+.menu ul li a {  background: url(../images/hover2.png) ; display:block; margin:0; padding:11px 0 11px 26px; color:#555; font:normal 0.9em Arial, Helvetica, sans-serif; text-decoration:none;}
+.menu ul li a:hover { color:#fff;  background: url(../images/hover.gif) ;}
+.menu ul li a.active { color:#fff;  background:url(../images/hover.gif) ;}
+/* logged tab */
+.logged { padding:0; margin: 0em 10em 0em 0em; float:right; font: bold 0.7em Arial, Helvetica, sans-serif; color:#959595;}
+/*************footer**********/
+.footer_resize { height:20px ;width:100%; margin:0 auto; }
+.footer p { text-align:center; font:normal 11px  Arial, Helvetica, sans-serif; color:#a1a1a1;}
+.footer a { color:#c6c6c6; text-decoration:none;}
+.footer {padding:0;  margin:0 auto; width:100%;  background:#333; border-top:0px solid #111; position:static; bottom: 0;}
+
+.userinfo { font:normal 0.8em Arial, Helvetica, sans-serif; color:#565656; line-height:1.8em; padding:5px; margin:0; }
+.userinfo_h { font:bold 1em Arial, Helvetica, sans-serif; text-decoration: underline; }
+
+p.clr, .clr { clear:both; padding:0; margin:0; background:none;}
+li.bg, .bg { float:right; clear:both; border-top:1px solid #e1e1e1; width:100%; padding:0; margin:5px 0; background:none; line-height:0;}
+
+.bigger { font:bold 1.5em Arial, Helvetica, sans-serif; } 
+.smaller {font:normal 0.7em Arial, Helvetica, sans-serif;}
+.about_table { font:normal 0.8em Arial, Helvetica, sans-serif; color:#565656;vertical-align: text-top;}
+.about_td {font:bold 1em Arial, Helvetica, sans-serif; color:#565656;vertical-align: top; padding: 1em;}
